@@ -1,5 +1,7 @@
-
+import { Link } from 'react-router-dom'
 import imagemHeader from './imagens/imagemHeader.svg'
+import PrivacyNotice from './PrivacyNotice'
+
 function App() {
 
   return (
@@ -7,14 +9,16 @@ function App() {
       <header className=' header container largo inline'>
         <div className=' imgContainer container center'>
           <img className='headerImg' src={imagemHeader} alt="imagem" />
-          
+
         </div>
         <p className='tituloHeader'>MasterFilms</p>
         <a href='https://wa.me/558387606571' className='ButtonHeader'>Assine</a>
       </header>
 
+      <PrivacyNotice />
+
       <main className='main container largo center'>
-        
+
         <h1 className='tituloMain center'>
           Seu Universo de Filmes e Séries Começa Aqui
         </h1>
@@ -32,7 +36,7 @@ function App() {
             <h1 className='planotitulo center'> Plano Básico</h1>
             <p className='preço1 center'>R$25,00/mês</p>
             <p>
-              
+
               🟢Catálogo em 4K UHD.<br />
               <br />
               🟢 1 Tela simultânea<br />
@@ -47,7 +51,7 @@ function App() {
             <h3 className='planotitulo2 center'>Plano Avançado</h3>
             <p className='preço2 center'>R$45,00/mês</p>
             <p>
-              
+
               🟢Catálogo em 4K UHD.<br />
               <br />
               🟢2 Telas simultâneas<br />
@@ -66,6 +70,11 @@ function App() {
           <a href='https://wa.me/558387606571' className='buttonTeste center'>Começar Teste Grátis</a>
         </div>
       </div>
+
+      <footer className='footer container full center'>
+        <p>&copy; 2026 MasterFilms. Todos os direitos reservados.</p>
+        <Link to="/privacidade" className='privacy-link'>Política de Privacidade</Link>
+      </footer>
     </>
   )
 }

@@ -1,0 +1,28 @@
+.footer {
+    background: #0E0E25FF;
+    color: white;
+    height: 8vh;
+    gap: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+@media (max-width: 900px) {
+    .footer {
+        height: auto;
+        flex-direction: column;
+        padding: 3vh 0;
+    }
+
+    .footer p {
+        font-size: 3vw;
+    }
+}

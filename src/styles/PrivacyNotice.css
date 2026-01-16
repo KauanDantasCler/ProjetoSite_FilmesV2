@@ -1,0 +1,54 @@
+.privacy-notice {
+    background: linear-gradient(135deg, #0E0E25FF 0%, #171A1FFF 100%);
+    color: white;
+    padding: 2vh 2vw;
+    text-align: center;
+    font-size: 1.2vw;
+    font-weight: 500;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.privacy-notice p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+
+.privacy-notice a {
+    color: #FFD700;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s;
+    border-bottom: 2px solid #FFD700;
+}
+
+.privacy-notice a:hover {
+    color: white;
+    border-bottom-color: white;
+}
+
+.privacy-close-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5vw;
+    cursor: pointer;
+    padding: 0.5vw 1vw;
+    transition: 0.3s;
+    margin-left: 1vw;
+}
+
+.privacy-close-btn:hover {
+    color: #FFD700;
+    transform: scale(1.2);
+}
+
+@media (max-width: 900px) {
+    .privacy-notice {
+        font-size: 3vw;
+        padding: 3vh 2vw;
+    }
+}

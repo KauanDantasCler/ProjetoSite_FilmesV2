@@ -1,0 +1,74 @@
+.page {
+    background-color: rgb(240, 233, 233);
+    min-height: 80vh;
+    padding: 5vw;
+    margin: 0 auto;
+    width: 90%;
+    border-radius: 2vw;
+}
+
+.page h1 {
+    font-family: Outfit;
+    font-size: 4vw;
+    font-weight: 800;
+    color: #0E0E25FF;
+    text-align: center;
+    margin-bottom: 3vh;
+    border-bottom: 3px solid #0E0E25FF;
+    padding-bottom: 2vh;
+}
+
+.page p {
+    font-family: Outfit;
+    font-size: 1.5vw;
+    font-weight: 400;
+    color: #171A1FE6;
+    line-height: 3vh;
+    margin: 2vh 0;
+    text-align: justify;
+}
+
+.page strong {
+    color: #0E0E25FF;
+    font-weight: 600;
+}
+
+.privacy-link {
+    color: #0E0E25FF;
+    text-decoration: none;
+    font-weight: 600;
+    margin-left: 2vw;
+    padding: 1vh 1.5vw;
+    border: 2px solid #0E0E25FF;
+    border-radius: 1vw;
+    transition: 0.3s;
+}
+
+.privacy-link:hover {
+    background: #0E0E25FF;
+    color: white;
+    transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+    .page {
+        width: 95%;
+        padding: 5vw;
+        min-height: 70vh;
+    }
+
+    .page h1 {
+        font-size: 6vw;
+        margin-bottom: 5vh;
+    }
+
+    .page p {
+        font-size: 4vw;
+        line-height: 6vh;
+    }
+
+    .privacy-link {
+        font-size: 3vw;
+        padding: 2vh 2vw;
+    }
+}
