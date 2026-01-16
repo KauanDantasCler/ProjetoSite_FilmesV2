@@ -379,7 +379,7 @@ body {
     }
     .descriçãoMain {
         font-size: 4vw;
-        width: 100%;
+        width: 90%;
     }
     .buttonMain {
         width: 50vw; 
@@ -387,33 +387,32 @@ body {
         font-size: 4vw;
     }
     .titulo-planos {
-        font-size: 10vw;
+        h2 {
+            margin-top: 10vh;
+            font-size: 6vw;
+        }
+        .planos-descrição {
+            font-size: 5vw;
+            margin: 0;
+            width: 90%;
+            margin-left: 5%;
+        }
     }
-    .planos-titulo {
-        font-size: 6vw;
+    .testeTxt {
+        .testeTitulo {
+            font-size: 6vw;
+            line-height: 10vh;
+        }
+        .testeDescrição {
+            font-size: 4vw;
+            line-height: 8vh;
+        }
+        .buttonTeste {
+            width: 40vw; 
+            height: 10vh;
+            font-size: 4vw;
+            padding: 2vw;
+        }
     }
-    .planotitulo, .planotitulo2 {
-        font-size: 6vw;
-    }
-    .preço1, .preço2 {
-        font-size: 6vw;
-    }
-    p {
-        font-size: 4vw;
-    }
-    .button-plano {
-        width: 40vw; 
-        height: 10vh;
-        font-size: 4vw;
-    }
-    .testeTitulo {
-        font-size: 6vw;
-    }
-    .testeDescrição {
-        font-size: 8vw;
-    }
-    .buttonTeste {
-        width: 80vw; 
-        font-size: 4vw;
-    }
+    
 }

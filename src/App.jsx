@@ -1,7 +1,6 @@
-import { useState } from 'react'
+
 import imagemHeader from './imagens/imagemHeader.svg'
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
