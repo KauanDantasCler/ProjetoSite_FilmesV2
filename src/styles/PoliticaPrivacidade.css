@@ -34,7 +34,7 @@
 }
 
 .privacy-link {
-    color: #0E0E25FF;
+    color: rgb(223, 223, 223);
     text-decoration: none;
     font-weight: 600;
     margin-left: 2vw;
@@ -46,7 +46,7 @@
 
 .privacy-link:hover {
     background: #0E0E25FF;
-    color: white;
+    color: rgb(29, 113, 161);
     transform: scale(1.05);
 }
 

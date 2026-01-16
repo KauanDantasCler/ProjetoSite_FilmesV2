@@ -9,40 +9,48 @@ body {
     background-color: rgb(255, 255, 255);
     width: 15%;
     height: 15vw;
-    
+
     border-radius: 0vw;
     margin: 0.5vw;
-    
+
 }
+
 .pequeno {
     width: 10vw;
     height: 10vw;
 }
+
 .medio {
     width: 25vw;
     height: 25vw;
 }
+
 .grande {
     width: 40vw;
     height: 40vw;
 }
+
 .full {
     width: 97vw;
     height: 97vh;
     margin: auto;
 }
+
 .metade {
     flex: 1;
     margin: 0;
 }
+
 .inline {
     display: flex;
     gap: 2vw;
 }
+
 .largo {
     width: 100%;
     margin: 0;
 }
+
 .alto {
     height: 100%;
 }
@@ -50,6 +58,7 @@ body {
 .home {
     height: 50%;
 }
+
 .center {
     display: flex;
     justify-content: center;
@@ -62,30 +71,34 @@ body {
     height: 10vh;
     align-items: center;
 }
+
 .imgContainer {
     height: 100%;
     width: 10%;
-    
+
 }
+
 .headerImg {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    
+
 }
+
 .tituloHeader {
     font-size: 3vw;
     font-weight: 800;
     font-style: italic;
 }
+
 .ButtonHeader {
-    background: #0E0E25FF; 
+    background: #0E0E25FF;
     color: white;
-    opacity: 1; 
-    width: 15vw; 
+    opacity: 1;
+    width: 15vw;
     height: 7vh;
-    border: none; 
-    border-radius: 2vw; 
+    border: none;
+    border-radius: 2vw;
     font-size: 2vw;
     font-weight: 600;
     margin-left: auto;
@@ -97,6 +110,7 @@ body {
     text-decoration: none;
 
 }
+
 .ButtonHeader:hover {
     background: #171A1FFF;
     transform: scale(1.1);
@@ -105,7 +119,7 @@ body {
 .main {
     height: 90vh;
     background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
-    url("imagens/ImagemMain.png") no-repeat center/cover;
+        url("imagens/ImagemMain.png") no-repeat center/cover;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -117,6 +131,7 @@ body {
     width: 60%;
     height: 60%;
 }
+
 .tituloMain {
     font-size: 5vw;
     opacity: 10;
@@ -124,32 +139,37 @@ body {
     width: 70%;
     height: 15vh;
 }
+
 .descriçãoMain {
     font-size: 2vw;
     width: 62%;
-    
+
 }
+
 .buttonMain {
-    background: #0E0E25FF; 
+    background: #0E0E25FF;
     color: white;
-    opacity: 1; 
-    width: 25vw; 
+    opacity: 1;
+    width: 25vw;
     height: 10vh;
-    border: none; 
-    border-radius: 5vw; 
+    border: none;
+    border-radius: 5vw;
     font-size: 1.5vw;
     font-weight: 600;
     transition: 0.3s;
     text-decoration: none;
 }
+
 .buttonMain:hover {
     background: #171A1FFF;
     transform: scale(1.1);
 }
+
 .section {
     height: auto;
     background-color: rgb(240, 233, 233);
 }
+
 .titulo-planos {
     font-size: 4vw;
     font-weight: 800;
@@ -167,6 +187,7 @@ body {
         color: rgb(0, 0, 0);
 
     }
+
     .planos-descrição {
 
         font-family: Outfit;
@@ -180,7 +201,9 @@ body {
 
 .planos {
     background-color: rgb(240, 233, 233);
-    height: auto;
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
 }
 
 .planotitulo {
@@ -202,7 +225,8 @@ body {
     justify-content: center;
     border-radius: 5vw;
     border: solid 0.2vw #0E0E25FF;
-    height: auto;
+    height: 90vh;
+    width: 30vw;
 
 
     .preço1 {
@@ -213,22 +237,23 @@ body {
         color: #0E0E25FF;
 
     }
+
     p {
         font-family: Outfit;
-        font-size: 3vw;
+        font-size: 2vw;
         line-height: 4vh;
         font-weight: 400;
         color: #171A1FE6;
     }
 
     .button-plano {
-        background: #0E0E25FF; 
+        background: #0E0E25FF;
         color: white;
-        opacity: 1; 
-        width: 20vw; 
+        opacity: 1;
+        width: 20vw;
         height: 8vh;
-        border: none; 
-        border-radius: 5vw; 
+        border: none;
+        border-radius: 5vw;
         font-size: 2vw;
         font-weight: 600;
         margin-top: 5vh;
@@ -236,11 +261,13 @@ body {
         margin-bottom: 5vh;
         text-decoration: none;
     }
+
     .button-plano:hover {
         background: #171A1FFF;
         transform: scale(1.1);
     }
 }
+
 .plano2 {
     display: flex;
     flex-direction: column;
@@ -249,8 +276,9 @@ body {
     border-radius: 5vw;
     border: solid 0.2vw #0E0E25FF;
     font-size: 2vw;
-    height: auto;
-    
+    height: 90vh;
+    width: 30vw;
+
 
     .planotitulo2 {
 
@@ -262,30 +290,33 @@ body {
         color: #171A1FFF;
 
     }
+
     .preço2 {
         font-family: Outfit;
         font-size: 4vw;
         line-height: 0vh;
         font-weight: 700;
         color: #0E0E25FF;
-        
+
 
     }
+
     p {
         font-family: Outfit;
-        font-size: 3vw;
+        font-size: 2vw;
         line-height: 4vh;
         font-weight: 400;
         color: #171A1FE6;
     }
-        .button-plano {
-        background: #0E0E25FF; 
+
+    .button-plano {
+        background: #0E0E25FF;
         color: white;
-        opacity: 1; 
-        width: 20vw; 
+        opacity: 1;
+        width: 20vw;
         height: 8vh;
-        border: none; 
-        border-radius: 5vw; 
+        border: none;
+        border-radius: 4vw;
         font-size: 2vw;
         font-weight: 600;
         margin-top: 5vh;
@@ -293,18 +324,22 @@ body {
         margin-bottom: 5vh;
         text-decoration: none;
     }
+
     .button-plano:hover {
         background: #171A1FFF;
         transform: scale(1.1);
     }
 
 }
+
 .planos {
     height: 90vh;
 }
+
 .teste {
-    background:rgb(240, 233, 233);
+    background: rgb(240, 233, 233);
 }
+
 .testeTxt {
     width: 90%;
     height: 90%;
@@ -334,13 +369,13 @@ body {
     }
 
     .buttonTeste {
-        background: #0E0E25FF; 
+        background: #0E0E25FF;
         color: white;
-        opacity: 1; 
-        width: 40vw; 
+        opacity: 1;
+        width: 40vw;
         height: auto;
-        border: none; 
-        border-radius: 3vw; 
+        border: none;
+        border-radius: 3vw;
         font-size: 2.5vw;
         font-weight: 600;
         margin-top: 5vh;
@@ -348,6 +383,7 @@ body {
         padding: 5vw;
         text-decoration: none;
     }
+
     .buttonTeste:hover {
         background: #171A1FFF;
         transform: scale(1.1);
@@ -355,64 +391,103 @@ body {
 }
 
 
-@media (max-width: 900px) {
+
+@media (max-width: 1000px) {
     .headerImg {
         width: 80%;
         height: 80%;
     }
+
     .tituloHeader {
         font-size: 8vw;
     }
+
     .ButtonHeader {
-        width: 30vw; 
+        width: 30vw;
         height: 8vh;
         font-size: 4vw;
     }
+
     .mainTxt {
         width: 90%;
         height: auto;
     }
+
     .tituloMain {
         font-size: 8vw;
         width: 100%;
         height: auto;
     }
+
     .descriçãoMain {
         font-size: 4vw;
         width: 90%;
     }
+
     .buttonMain {
-        width: 50vw; 
+        width: 50vw;
         height: 8vh;
         font-size: 4vw;
     }
-    .titulo-planos {
-        h2 {
-            margin-top: 10vh;
-            font-size: 6vw;
-        }
-        .planos-descrição {
-            font-size: 5vw;
-            margin: 0;
-            width: 90%;
-            margin-left: 5%;
-        }
+
+    .planos {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 5vw;
+        padding: 5vw 0;
     }
+
+    .plano1,
+    .plano2 {
+        width: 70%;
+        height: auto;
+        padding: 5vw;
+        margin: 0 auto;
+
+        .button-plano {
+            font-size: 5vw;
+            width: 60vw !important;
+            height: 10vh;
+            font-size: 4vw;
+            border-radius: 3vw;
+        }   
+    }
+
+    .planotitulo,
+    .planotitulo2 {
+        font-size: 6vw;
+        margin-top: 3vh;
+    }
+
+    .preço1,
+    .preço2 {
+        font-size: 7vw;
+    }
+
+    .plano1 p,
+    .plano2 p {
+        font-size: 5vw;
+    }
+
+
     .testeTxt {
         .testeTitulo {
             font-size: 6vw;
             line-height: 10vh;
         }
+
         .testeDescrição {
             font-size: 4vw;
             line-height: 8vh;
         }
+
         .buttonTeste {
-            width: 40vw; 
+            width: 40vw;
             height: 10vh;
             font-size: 4vw;
             padding: 2vw;
         }
     }
-    
+
 }
